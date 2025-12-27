@@ -1,6 +1,6 @@
 def helper(n):
     print(n)
-    if n==0:
+    if n==5:
         return
-    helper(n-1)
-helper(5)
+    helper(n+1)
+helper(1)
